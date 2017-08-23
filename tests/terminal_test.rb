@@ -1,12 +1,12 @@
 require "test/unit"
-require_relative 'file_reader'
-require_relative 'terminal'
+require_relative '../lib/file_reader'
+require_relative '../lib/terminal'
 
 class TestTerminal < Test::Unit::TestCase
 
 	def setup
 		@terminal = Terminal.new
-		prices = FileReader.new("prices.json")
+		prices = FileReader.new("data/prices.json")
 		@terminal.set_pricing(prices.data)
 	end
 
