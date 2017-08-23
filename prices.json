@@ -1,0 +1,6 @@
+{
+"A": { "price": 200, "volume": {"amt": 4, "price": 700} },
+"B": { "price": 1200 },
+"C": { "price": 125, "volume": {"amt": 6, "price": 600}},
+"D": { "price": 15 }
+}
