@@ -1,4 +1,4 @@
-To run program, navigate to BB-coding-challenge directory and use command:
+To run program, navigate to the root Broker-Buddha-coding-challenge directory and use command:
 $ ruby run_terminal.rb
 This will run the program with the products and prices given in the instructions.
 
